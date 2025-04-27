@@ -1,0 +1,46 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body
+{
+    background-color: royalblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box
+{
+ background-color: white;
+ width: fit-content;
+ height: fit-content;
+ padding: 50px;
+ border-radius: 60px 10px 60px 10px;
+ box-shadow: 5px 5px 10px white;
+ 
+}
+.heading
+{
+    color: blueviolet;
+    text-align: center;
+}
+h1{
+    font-size:50px;
+}
+button
+{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    box-shadow: inset 2px 2px 1px black;
+    cursor: pointer;
+}
